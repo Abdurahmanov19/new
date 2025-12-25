@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    padding: 25px 0;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title{
+    font-size: 26px;
+}
+span{
+    color: #2196F3;
+}
+.header-menu,.header-address{
+    display: flex;
+    gap: 50px;
+}
+.header-item{
+    list-style-type: none;
+}
+.header-link{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.header-address-email,.header-address-tel{
+    text-decoration: none;
+    color: #757575;
+}
+.header-link:hover{
+    color: #2196F3;
+}
+/*header end*/
+
+.first{
+    background-color: rgba(47, 48, 58, 1);
+    text-align: center;
+    padding: 200px 0;
+}
+.first-title{
+    font-size: 44px;
+    color: white;
+    margin-bottom: 30px;
+}
+.first-btn{
+    border-radius: 4px;
+    padding: 10px 32px;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+}
+/*first end*/
+
+.second{
+    padding: 79px 0 94px;
+}
+.second-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.second-box{
+    width: calc(25% - 22.5px);
+}
+.second-title{
+    margin-bottom: 10px;
+}
+.second-text{
+    color: rgba(117, 117, 117, 1);
+}
+/*second end*/
+.third{
+    padding-bottom: 94px;
+}
+.third-title{
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.third-block{
+    display: flex;
+    gap: 30px;
+}
+/*third end*/
+.four{
+    padding: 94px 0;
+    background: rgba(245, 244, 250, 1);
+}
+.four-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.four-block{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.four-box{
+    width: calc(25% - 22.5px);
+}
+.four-img{
+    width: 100%;
+}
+.four-box-description{
+    padding: 30px 0;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    background: rgba(255, 255, 255, 1);
+}
+.four-subtitle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.four-text{
+    text-align: center;
+    color: rgba(117, 117, 117, 1);
+}
